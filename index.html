@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Rangga</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Hello, I’m <span class="typing"></span></h1>
+        <p>Front-End Developer | UI/UX Enthusiast</p>
+        <a href="#portfolio" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <img src="assets/img/rangga.png" alt="Profile Picture" />
+        <div>
+          <p>
+            I am a passionate web developer who loves creating beautiful and
+            functional websites. Skilled in HTML, CSS, JavaScript, and React.
+            Always eager to learn new things!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="portfolio" class="portfolio">
+      <h2 class="section-title">My Projects</h2>
+      <div class="portfolio-grid">
+        <div class="card">
+          <img src="assets/img/daftar-tugas.png" alt="Project 1" />
+          <h3>Project One</h3>
+          <p>
+            This to-do list website is a simple web-based application used to
+            record, add, and delete daily tasks. Built using HTML, CSS, and
+            JavaScript, the website stores a temporary to-do list in the
+            browser, making it easier for users to organize their daily
+            activities. With a clean and interactive interface, users can be
+            more productive in managing their time.
+          </p>
+          <a
+            href="https://aplikasi-web-daftar-tugas.vercel.app/"
+            target="_blank"
+            class="btn-link"
+            >View Project</a
+          >
+        </div>
+        <div class="card">
+          <img src="assets/img/kalkulator.png" alt="Project 2" />
+          <h3>Project Two</h3>
+          <p>
+            This simple calculator website is built using HTML, CSS, and
+            JavaScript to help users perform basic calculations like addition,
+            subtraction, multiplication, and division. The interface is simple
+            yet responsive, making it easy to use on both desktop and mobile
+            devices. Using JavaScript logic, each button instantly provides
+            real-time results without the need to reload the page.
+          </p>
+          <a
+            href="https://kalkulator-sederhana-smoky.vercel.app/"
+            target="_blank"
+            class="btn-link"
+            >View Project</a
+          >
+        </div>
+        <div class="card">
+          <img src="assets/img/kasirsederhana.png" alt="Project 3" />
+          <h3>Project Three</h3>
+          <p>
+            This simple search engine website allows users to search for
+            keywords from a list of available data. Built with HTML, CSS, and
+            JavaScript, it allows users to type keywords into the search bar,
+            and relevant results are displayed instantly. Its minimalist design
+            focuses on search speed and a user-friendly experience.
+          </p>
+          <a
+            href="https://mesin-kasir-sederhana.vercel.app/"
+            target="_blank"
+            class="btn-link"
+            >View Project</a
+          >
+        </div>
+
+         <div class="card">
+          <img src="assets/img/sertifikat.png" alt="Project 2" />
+          <h3>Sertifikat</h3>
+          <p>
+            This certificate is awarded to participants who successfully achieved first place in the school-level Cloud Computing competition. This award demonstrates the ability to understand basic cloud computing concepts, manage cloud services, and implement cloud technology for problem-solving. This achievement demonstrates the participants' dedication, hard work, and competence in information technology, particularly cloud computing, within the school environment.
+          </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="socials">
+        <a href="#">LinkedIn</a> | <a href="#">GitHub</a> |
+        <a href="#">Instagram</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Rangga Awan. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
